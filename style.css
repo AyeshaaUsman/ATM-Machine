@@ -1,0 +1,82 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-image: url(https://media.gettyimages.com/id/1284791936/video/abstract-simple-and-beautiful-gray-background-soft-blurred-motion-design-clean-animation-slow.jpg?s=640x640&k=20&c=tAahAbNDnd0uSDCfscmYcX5xhFum1oWjf3pZVfjPx48=);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #f3f3f3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+  }
+  
+  .atm-container {
+    width: 350px;
+    height: 250px;
+    background: linear-gradient(to bottom right, #004d99, #0066cc);
+    border-radius: 10px;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+  }
+  
+  .screen {
+    background-color: #002b5e;
+    padding: 15px;
+    border-radius: 5px;
+    margin-bottom: 20px;
+  }
+  
+  .screen p {
+    margin: 0;
+    font-size: 16px;
+  }
+  
+  .keypad {
+    margin-bottom: 20px;
+  }
+  
+  .keypad input {
+    padding: 10px;
+    width: 200px;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+  }
+  
+  .keypad button {
+    padding: 10px 20px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .keypad button:hover {
+    background-color: #cc5200;
+  }
+  
+  .actions button {
+    margin: 5x;
+    padding: 15px 20px;
+    background-color: #ff6600;
+    border: none;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .actions button:hover {
+    background-color: #cc5200;
+  }
+  
+  #actions {
+    display: none;
+  }
+  
